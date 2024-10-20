@@ -16,7 +16,7 @@ public class DBAcess {
   }
 
   public void query() throws SQLException, ClassNotFoundException {
-    var conn = getDB();
+    Connection conn = getDB();
     conn.prepareStatement("").execute();
   }
 }
